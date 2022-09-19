@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="card">
+        <ul class="card__icon-list">
+            <li class="card__icon-items">
+                <ion-icon name="heart-outline"></ion-icon>
+            </li>
+            <li class="card__icon-items">
+                <ion-icon name="cart-outline"></ion-icon>
+            </li>
+        </ul>
+        
+        <img class="card__image" src="./assets/images/product.png" alt="Product's image">
+
+        <div class="card__info">
+            <p class="card__info--name">
+                Nike Zoom KD 12
+            </p>
+            <p class="card__info--price">
+                $99
+            </p>
+        </div>
+        <div class="card__detail">
+            <div class="cart__detail__row">
+                <h3 class="cart__detail__label">Size: </h3>
+                <ul class="cart__detail__list">
+                    <li class="cart__detail__items cart__detail__items--size">6</li>
+                    <li class="cart__detail__items cart__detail__items--size">7</li>
+                    <li class="cart__detail__items cart__detail__items--size">8</li>
+                    <li class="cart__detail__items cart__detail__items--size">9</li>
+                </ul>
+            </div>
+            <div class="cart__detail__row">
+                <h3 class="cart__detail__label">Color: </h3>
+                <ul class="cart__detail__list">
+                    <li class="cart__detail__items cart__detail__items--color cart__detail__items--color--green"></li>
+                    <li class="cart__detail__items cart__detail__items--color cart__detail__items--color--yellow"></li>
+                    <li class="cart__detail__items cart__detail__items--color cart__detail__items--color--red"></li>
+                </ul>
+            </div>
+            <div class="cart__detail__action">
+                <button class="cart__detail__action__button cart__detail__action--buy">Buy now</button>
+                <button class="cart__detail__action__button cart__detail__action--add">Add cart</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
